@@ -1,0 +1,91 @@
+p {
+    margin: 120px 0px 10px;
+}
+
+.desktop-image {
+    background-image: url(image/Header-llustration-desktop@2x.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 1542px;
+    height: 1000px;
+  } 
+  .bg-image {
+  background-image: url('image/Header-llustration-desktop@2x.png');
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  .mb-3 {
+    top: 400px;
+  }
+
+  .list-inline .ml-auto {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 2px;
+  width: 305px;
+  height: 48px;
+  background: #fff;
+  }
+ .card-img-top {
+    height: 220px;
+    width: 320px;
+}
+
+  .card {
+    width: 18rem;
+  }
+.card-body .list-inline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 2px;
+    width: 35px;
+    height: 32px;
+    background: #fff;
+    list-style: none;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 16px;
+}
+
+.text-center {
+    padding-top: 100px;
+}
+.btn-primary {
+    background: #36b37f;
+    border: none;
+}
+
+@media screen and (min-width: 768px) {
+    
+.card-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 58px;
+}
+ #desktop-language-detail {
+    background: #ebf0ee;
+    width: 369px;
+    height: 352px;
+}
+}
+img {
+    width:fit-content;
+}
+.about-supporting-text {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.text-wrap {
+  width: 400px;
+}
